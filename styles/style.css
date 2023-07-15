@@ -4,9 +4,65 @@
     font-family: 'Open Sans', sans-serif;
     font-family: 'Rammetto One', cursive;
     font-family: 'Work Sans', sans-serif;
-    margin: 0px;
-    padding: 0px;
+    
+    
 }
+.background{ height: 100%;width: 100%;padding: 50px; background: rgba(255, 144, 14, 0.10);}
+
+.header{
+  
+padding:50px 240px ;
+display: flex;
+justify-content: space-between;
+gap: 200px;
+}
+
+.nav-link{display: flex;
+    gap: 30px;
+    list-style: none;
+    justify-content: center;
+}
+a{text-decoration: none;
+    color:  #424242;
+    text-align: center;
+   
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    }
+    .nav-tittle{
+      color: #131313;       
+      font-size: 1.5rem;
+     font-weight: 700;
+    }
+
+    .banner
+    {text-align: center;
+    }
+    .banner-tittle{
+        color:  #131313;
+     
+    
+        font-size: 64px;
+     
+        font-weight: 700;
+       
+    }
+    .banner-para{color:  #727272;
+        text-align: center;
+        
+        font-size: 16px;
+       
+        font-weight: 400;
+      }
+      .banner-btn{color: #FFF;
+        text-align: center;
+       background-color: rgba(255, 144, 14, 1);
+        font-size: 20px;
+      border-radius: 8px;
+        font-weight: 600;
+       }
+
 
 
 
