@@ -21,12 +21,14 @@ justify-content: space-between;
 gap: 200px;
 }
 
-.nav-link{display: flex;
+.nav-link{
+  display: flex;
     gap: 30px;
     list-style: none;
     justify-content: center;
 }
-a{text-decoration: none;
+a{
+  text-decoration: none;
     color:  #424242;
     text-align: center;
    
@@ -41,7 +43,8 @@ a{text-decoration: none;
     }
 
     .banner
-    {text-align: center;
+    {
+      text-align: center;
     }
     .banner-tittle{
         color:  #131313;
@@ -52,7 +55,8 @@ a{text-decoration: none;
         font-weight: 700;
        
     }
-    .banner-para{color:  #727272;
+    .banner-para
+    {color:  #727272;
         text-align: center;
         
         font-size: 16px;
@@ -76,11 +80,25 @@ a{text-decoration: none;
 
  
 
-      main{max-width: 1040px;margin:0 auto ;}
+      main{
+        max-width: 1040px;
+        margin:0 auto ;}
 
-.teams-content{display: flex;align-items: center;gap: 9px;margin-top: 30px;}
-.teams-container{padding-right:70px ;padding-left: 70px;margin-top: 40px;}
-.teams-img{margin-top: 50px; display: grid;grid-template-columns: repeat(2,1fr);gap: 24px;}
+.teams-content{
+  display: flex;
+  align-items: center;
+  gap: 9px;
+  margin-top: 30px;
+}
+.teams-container{padding-right:70px ;
+  padding-left: 70px;
+  margin-top: 40px;
+}
+.teams-img{
+  margin-top: 50px;
+   display: grid;
+   grid-template-columns: repeat(2,1fr);gap: 24px;
+  }
 
 
       .list{color:  #727272;
@@ -95,32 +113,37 @@ a{text-decoration: none;
         
           font-weight: 700;
          }
-         .feature-f{color: #FF900E;
+         .feature-f{
+          color: #FF900E;
          
           font-size: 45px;
           
           font-weight: 700;
          }
-  .some-tittle{color: #131313;
+  .some-tittle{
+    color: #131313;
    
     font-size: 45px;
     
     font-weight: 700;
     }  
-    .some-desc{color:  #727272;
+    .some-desc{
+      color:  #727272;
     
       font-size: 16px;
   
       font-weight: 400;
     }     
-.box-tittle{color:  #424242;
+.box-tittle{
+  color:  #424242;
  
   font-size: 45px;
 
   font-weight: 600;
   margin-bottom:10px ;
 }
-.box-desc{color: #727272;
+.box-desc{
+  color: #727272;
   
   font-size: 20px;
 
@@ -132,7 +155,8 @@ a{text-decoration: none;
   width: 45px;
 margin-top: 50px;
 }
- .box-content{border-radius: 8px;
+ .box-content{
+  border-radius: 8px;
   border: 1px solid #FF900E;
   width: 241.831px;
   height: 241.831px;
@@ -142,22 +166,26 @@ padding: 20px;
 margin-top: 40px;
 
 }
-.box-container{display: flex;align-items: center; justify-content: space-evenly;}
+.box-container{
+  display: flex;
+  align-items: center;
+   justify-content: space-evenly;
+  }
 
 .footer-container{
 text-align: center;
 
 }
-.img-container{display: flex;
-  
-
-
-  justify-content: space-around;}
+.img-container{
+  display: flex;
+  justify-content: space-around;
+}
   .img-tittle{
 margin-top: 50px;
 
   }
-  .footer-desc{border-radius: 8px;
+  .footer-desc{
+    border-radius: 8px;
     background: #FFF4E7;
     width: 1140px;
     height: 100px;
@@ -166,7 +194,8 @@ margin-top: 50px;
     margin-left: 50px;
     margin-top: 50px;
 }
-.footer-para{color:  #424242;
+.footer-para{
+  color:  #424242;
   text-align: center;
 
   font-size: 20px;
@@ -174,19 +203,25 @@ padding: 40px;
   font-weight: 400px;
   }
  
-.feature{display: flex;
-gap: 100px;}
-.card{width: 586px;
+.feature{
+  display: flex;
+gap: 100px;
+}
+.card{
+  width: 586px;
   margin-top: 50px;
   height: 171px;
   flex-shrink: 0;
   border-radius: 8px;
   background: #FFF;
-  box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.06);}
-         .love-img{width: 500px;
+  box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.06);
+}
+         .love-img{
+          width: 500px;
           height: 982px;
           margin-top: 50px;
-        position: relative;}
+        position: relative;
+      }
         .love-100{position: absolute;
           color: #FFF;
           margin-top: -40px;
@@ -198,9 +233,8 @@ gap: 100px;}
           border-radius: 8px;
 background: #FF900E;
           }
-.some.tittl{color:  #131313;
-  
-
+.some.tittl{
+  color:  #131313;
   font-weight: 700;
  }
 
